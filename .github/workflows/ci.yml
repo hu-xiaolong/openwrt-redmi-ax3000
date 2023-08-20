@@ -3,7 +3,8 @@ name: CI
 on:
   workflow_dispatch:
   push:
-
+    branches:
+      - ipq50xx-mainline-kernel-5.15-openwrt-23.05
 jobs:
   build:
     runs-on: ubuntu-20.04
