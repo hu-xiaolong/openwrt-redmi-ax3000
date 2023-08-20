@@ -78,7 +78,7 @@ jobs:
 
       - name: Download
         run: |
-          make -j16 download
+          make -j1 V=s download
 
       - name: Build tools
         run: |
